@@ -1,2 +1,2 @@
 # TopmetalSe-V1
-General Repo to contain all relevant info, hardware files, firmware info.
+This repo stores almost all of the info to run and understand the TopmetalSe
