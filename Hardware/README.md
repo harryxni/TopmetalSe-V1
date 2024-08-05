@@ -5,7 +5,7 @@ This directory contains the design files for using and testing the TopmetalSe.
 ## Test PCB, the UW Caravel Test Board
 This board is the primary board used for testing as it contains all of the electronics necessary for running the chip.
 
-A large part of this board is concerned with running the [caravel SOC](https://caravel-harness.readthedocs.io/en/latest/index.html), which is a part of the chip that we ultimatly do not use much. However, it is important to know that we can communicate with it, if necessary. It can also be useful to test I/O connections and make sure the chip is powered on/works as expected. As a result, much of this board is copied over from the [efabless caravel boards](https://github.com/efabless/caravel_board).
+A large part of this board is concerned with running the [caravel SOC](https://caravel-harness.readthedocs.io/en/latest/index.html), which is a part of the chip that we ultimatly do not use much. However, it is important to know that we can communicate with it, if necessary. It can also be useful to test I/O connections and make sure the chip is powered on/works as expected. As a result, much of this board is copied over from the [efabless caravel boards](https://github.com/efabless/caravel_board). A lot of the communication with the caravel SOC is done over USB via the FTDI chip and requires the clock to be on. For actual chip testing, please solder a jumper over J4 to turn the clock off to reduce the electronic noise.
 
 The other part of the board is concerned with running the TopmetalSe, which happens in three categories: biasing, clocking and readout. 
 
