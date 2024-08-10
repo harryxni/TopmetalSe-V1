@@ -1,7 +1,11 @@
 
 *.DS_Store
+
 Results/Testing/
 **/test/
+/.ipynb_checkpoints/
+
+
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
