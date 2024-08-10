@@ -14,4 +14,4 @@ R23, R25 and R27 should not be present to prevent current flow along the voltage
 
 LDAC bar should always be jumpered.
 
-The signals names for ROW and COL have are actually switched. This is fixed in the FPGA software which controls these lines, but should be noted for any future iterations.
+The signals names for ROW and COL are actually switched. This is fixed in the FPGA software which controls these lines, but should be noted for any future iterations.
