@@ -1,0 +1,3 @@
+[submodule "Software/SeAL"]
+	path = Software/SeAL
+	url = git@github.com:selena0vbb/SeAL.git
