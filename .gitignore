@@ -3,7 +3,7 @@
 
 Results/Testing/
 **/test/
-/.ipynb_checkpoints/
+*/.ipynb_checkpoints/
 
 
 # For PCBs designed using KiCad: https://www.kicad.org/
